@@ -1,3 +1,5 @@
+\connect gym_logger
+
 CREATE TABLE IF NOT EXISTS routines (
   id SERIAL PRIMARY KEY,
   name VARCHAR(120) NOT NULL,
